@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:ital,wght@0,700;1,400&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: "karla", sans-serif;
+    font-size: 16px;
+    background-color: var(--light-gray);
+    padding: 1.25rem;
+}
+
+.btn{
+    background-color: var(--bright-yellow);
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.container{
+    background-color: whitesmoke;
+}
+
+
+p.green{
+    color: var(--bright-yellow);
+    font-weight: 700;
+}
+
+
